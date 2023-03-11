@@ -1,0 +1,4 @@
+testing/
+__pycache__/
+.vscode/
+.env
