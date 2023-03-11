@@ -1,5 +1,4 @@
-def validate_code(hex_code):
-            
+def validate_code(hex_code):         
     try:
         if "#" in hex_code:
             code = hex_code.split("#")[1]
@@ -18,7 +17,8 @@ def validate_code(hex_code):
     
     return True
 
-def validate_all(high, width):
+
+def validate_numbers(high, width):
     try:
         high = int(high)
         width = int(width)
